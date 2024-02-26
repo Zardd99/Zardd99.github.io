@@ -1,3 +1,3 @@
 function alertButton() {
-  alert("Fuck You (:")
+  alert("Love You (:")
 }
