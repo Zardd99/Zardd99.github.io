@@ -1,30 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="app.css"/>
     <style>
-        .center-screen {
+        .top-part {
+            font-family: "Lobster", sans-serif;
+            background-color: rgb(78, 79, 69);
+            height: 10px;
+            color: rgb(47, 0, 255);
+            font-size: 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding-left: 100px;
+            padding-bottom: 100px;
+        }
+        .rest-of-page {
+            font-size: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            
+        }
+        .center-screen{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
             text-align: center;
         }
-        .surprise-button {
-            width: 500px;
-            height: 150px;
-            font-size: 50px;
+        .center-screen button{
+            font-family: "Lobster", sans-serif;
+            width: 200px;
+            height: 50px;
         }
     </style>
 </head>
 <body>
+    <div class="top-part"><h1>Chin Sakda's Website</h1>
+    </div>
+        
     <div class="center-screen">
-    <h1>Hello!</h1>
-    <br>
-    <br>
-    <button
-     class = "surprise-button" onClick="alertButton()">Click For Surprise!</button>
+        
+        <button class="button-86" role="button" onClick="alertButton()">I love Programming!</button>
+
+
+    </div>
+    <div class="rest-of-page">
     </div>
 </body>
 

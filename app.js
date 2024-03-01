@@ -1,4 +1,4 @@
 function alertButton() {
-  var newWindow = window.open("", "new window", "width=200,height=100");
-  newWindow.document.write("<h1>I love gaming (:</h1>");
+  var myWindow = window.open("", "MsgWindow", "fullscreen=yes");
+  myWindow.document.write("<p class='custom-font'>I love gaming also (:</p>");
 }
